@@ -502,7 +502,7 @@ async def on_message(message):
                 await message.channel.send("you can't kill in the morning")
           else:
             if message.channel.name != "witch" and message.channel.name != "werewolves" and message.channel.name != "hunter":
-              await message.channel.send("you can't kill dumbass")
+              await message.channel.send("you can't kill")
 
     if message.content.startswith('$vote'): #vote
       players = []
@@ -563,7 +563,7 @@ async def on_message(message):
         else:
             await message.channel.send("you can't seer in the morning")
       else:
-        await message.channel.send("you can't seer dumbass")
+        await message.channel.send("you can't seer")
 
     if message.content.startswith('$save'): #bodyguard saves
       players = []
@@ -618,7 +618,7 @@ async def on_message(message):
               await message.channel.send("you can't save in the morning")
         else:
           if message.channel.name != "witch" and message.channel.name != "bodyguard":
-            await message.channel.send("you can't save people dumbass")
+            await message.channel.send("you can't save people")
 
     if message.content.startswith('$pair'): #cupid hooksup
       players = []
@@ -647,7 +647,7 @@ async def on_message(message):
         else:
             await message.channel.send("you can't be a cupid in the morning")
       else:
-        await message.channel.send("you can't pair people up dumbass")
+        await message.channel.send("you can't pair people up")
 
     if message.content.startswith('$noaction'):
       if message.channel.name == "witch":

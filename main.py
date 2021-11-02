@@ -87,7 +87,6 @@ hunterKillAvailable = True
 
 rolePowers = ["kill","save","seer","hookup","N/A","choose Wolf or Villager after night 3"]
 
-
 def resetGlobals ():
     global currentNight
     global wolfKillsAvailable
